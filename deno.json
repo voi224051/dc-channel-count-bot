@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run -N -E -R --watch main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@discord.js": "npm:discord.js",
+    "@discord.js/builders": "npm:@discordjs/builders",
+    "@discord.js/rest": "npm:@discordjs/rest",
+    "@discord_api_types": "https://deno.land/x/discord_api_types@0.37.101/v10.ts",
+    "@discord_custom": "./types/customdiscord.ts"
+  }
+}
